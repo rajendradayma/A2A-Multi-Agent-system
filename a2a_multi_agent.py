@@ -55,7 +55,7 @@ print("✅ All imports OK!", flush=True)
 # ── STEP 2: Config dataclass ─────────────────────────────────────────────────────
 @dataclass(frozen=True)
 class Config:
-    GROQ_API_KEY: str = "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"
+    GROQ_API_KEY: str = "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"
     GROQ_MODEL: str = "llama-3.1-8b-instant"
     DB_API_URL: str = "http://127.0.0.1:8998"
     DB_PATH: str = "company.db"
